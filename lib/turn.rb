@@ -34,21 +34,3 @@ def display_board(board)
    puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-#this method need to be developed ________________
-def turn(board)
-    puts "Please enter 1-9:"
-    answer = input_to_index(answer)
-    if valid_move?(answer, board)
-      move(board, answer)
-      puts display_board(board)
-    else
-end
-
-#else ask for input again until you get valid input
-#_________________________________________________
-
-board = ["X"," "," "," "," "," "," "," "," "]
-puts "Welcome to Tic Tac Toe!"
-puts display_board(board)
-turn(board)
-end
