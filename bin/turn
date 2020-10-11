@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-displayboard method 
+board = [" "," "," "," "," "," "," "," "," "]
