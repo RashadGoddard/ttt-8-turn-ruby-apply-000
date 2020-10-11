@@ -5,3 +5,8 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 puts "welocme to tic tac toe!"
 display_board(board)
+
+index = input_to_index(nput)
+
+move(board,index,vlue= "x")
+display_board(board)
