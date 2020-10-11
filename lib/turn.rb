@@ -42,9 +42,6 @@ def turn(board)
       move(board, answer)
       puts display_board(board)
     else
-      puts "That is an invalid entry!"
-      turn(board)
-    end 
 end
 
 #else ask for input again until you get valid input
